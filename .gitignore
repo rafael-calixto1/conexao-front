@@ -12,6 +12,7 @@ npm-debug.log*
 # Built output
 build/
 dist/
+*.js
 
 # Editor/IDE specific files
 .vscode/
@@ -21,7 +22,7 @@ dist/
 .DS_Store
 Thumbs.db
 
-# Optional: Uncomment the following lines if you use TypeScript
-# Compiled TypeScript
-*.js
-*.js.map
+# Cache and generated files
+.cache/
+*.pnp.js
+yarn-error.log
